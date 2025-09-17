@@ -1,6 +1,13 @@
+<div align="center">
+
 # 🕒 YouTube Playlist Duration Calculator
 
-This Python script calculates the total duration of a YouTube playlist and shows how long it would take to watch at different playback speeds (1x, 1.25x, 1.5x, 1.75x, 2x).
+Calculate the total duration of a **selected range** of YouTube playlist videos and displays the viewing time at **various playback speeds** (1x, 1.25x, 1.5x, 1.75x, 2x)
+
+![overview](tutorial.webp)
+
+</div>
+
 
 ## 📦 Features
 

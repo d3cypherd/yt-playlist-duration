@@ -3,10 +3,15 @@ import sys
 
 import yt_dlp
 
+start = 0
+end = -1
 # Example usage: python app.py https://youtube.com/playlist?list=XYZ 1 10
 playlist_url = sys.argv[1]
-start = int(sys.argv[2]) - 1  # Convert to 0-based index
-end = int(sys.argv[3])
+if len(sys.argv) >= 3:
+    start = int(sys.argv[2]) - 1  # Convert to 0-based index
+if len(sys.argv) >= 4:
+    end = int(sys.argv[3])
+
 
 # yt-dlp options to fetch metadata only
 options = {
